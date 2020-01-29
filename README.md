@@ -1,10 +1,10 @@
 # Unity-2D-AI
-This is a free AI for your 2D Unity games!
 
 [Demo AI.rar](https://github.com/JareBear12418/Unity-2D-AI/blob/master/Demo%20AI.rar)
 
 [Demo AI.unitypackage](https://thecodingjsoftware.weebly.com/uploads/1/2/6/9/126914047/ai_demo_scene.unitypackage)
 
+This is a free AI for your 2D Unity games!
 
 We know this AI is far from perfect.
 We know there are plenty of issues.

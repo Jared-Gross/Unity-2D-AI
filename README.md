@@ -4,6 +4,9 @@
 
 [Demo AI.unitypackage](https://thecodingjsoftware.weebly.com/uploads/1/2/6/9/126914047/ai_demo_scene.unitypackage)
 
+[Showcase Video](https://www.youtube.com/watch?v=DvLCkT96rXA)
+
+
 This is a free AI for your 2D Unity games!
 
 We know this AI is far from perfect.

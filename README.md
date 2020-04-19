@@ -23,5 +23,16 @@ You might be wondering why we would release this AI, even if its not perfect?
 
 "Well we noticed an issue in Unity game development, that issue being that theres no open source AI for begginers to get started with, this is what this AI is. A free open source AI for begginers or even experts. We wanted begginers to have an AI for there games, because AI is a huge and scary topic for begginers, so we took it upon our selves to create this AI that is very easy to setup."
 
+Errors, and how to fix them:
+Line 148 in `BotController2D.cs` change from 
+`if (obj.activeInHierarchy == true) distDic.Add (dist, obj);`
+to:
+`if (obj.activeInHierarchy == true && !distDic.ContainsValue (obj)) distDic.Add (dist, obj);`
+
+That should get rid of the:
+`ArgumentException: An item with the same key has already been added. Key: 162.1331
+System.Collections.Generic.Dictionary2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <599589bf4ce248909b8a14cbe4a2034e>:0)
+System.Collections.Generic.Dictionary2[TKey,TValue].Add (TKey key, TValue value) (at <599589bf4ce248909b8a14cbe4a2034e>:0)`
+
 Have more questions or bugs that we don't know about?
 Join us on [Discord](https://discord.gg/EtrSc4s)
